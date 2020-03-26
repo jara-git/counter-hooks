@@ -1,0 +1,20 @@
+.sum {
+    width: 40px;
+    color: rgb(47, 48, 47);
+    background-color: rgb(211, 192, 48);
+    border-radius: 1em;
+    margin: 0 1em;
+}
+
+.rest {
+    width: 40px;
+    color: rgb(47, 48, 47);
+    background-color: indianred;
+    border-radius: 3em;
+    margin: 0 1em;
+}
+
+.input_num {
+    border-radius: 3em;
+    background-color: lightgray;
+}
