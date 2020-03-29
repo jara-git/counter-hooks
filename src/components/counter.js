@@ -12,7 +12,7 @@ export default function Counter() {
       <button className='sum' onClick={() => setCount(count + 1)}>
         +1
       </button>
-      <input className='input_num' placeholder='Set initial value' type='number' onChange={(event) => setCount (event.target.value)}></input>
+      <input className='input_num' placeholder='Set initial value' type='number' onChange={(event)=>setCount(Number(event.target.value))}></input>
       <button className='rest' onClick={() => setCount(count - 1)}>
         -1
       </button>
