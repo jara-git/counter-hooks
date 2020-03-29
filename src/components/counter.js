@@ -9,12 +9,10 @@ export default function Counter() {
   return (
     <div>
       <p>The counter is at : {count} </p>
-      <button className='sum' onClick={() => setCount(count + 1)}>
-        +1
+      <button className='sum' onClick={() => setCount(count + 1)}> +1 </button>
       </button>
       <input className='input_num' placeholder='Set initial value' type='number' onChange={(event)=>setCount(Number(event.target.value))}></input>
-      <button className='rest' onClick={() => setCount(count - 1)}>
-        -1
+      <button className='rest' onClick={() => setCount(count - 1)}> -1 </button>
       </button>
     </div>
   );
